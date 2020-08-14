@@ -1,0 +1,136 @@
+/*margin的样式初始化*/
+body,h1,h2,h3,h4,h5,h6,p,ol,ul,input {
+	margin:0;
+}
+/*padding的样式初始化*/
+ol,ul,th,td,input {
+	padding:0;
+}
+/*列表点点的样式初始化*/
+ul,ol {
+	list-style: none;
+}
+/*下划线的样式初始化*/
+a, a:hover, a:link, a:visited, a:active {
+	text-decoration: none;
+	cursor: pointer;
+}
+/*字体样式初始化*/
+em,i {
+	font-style:normal;
+}
+/*图片的初始化*/
+img {
+	border:none;
+}
+
+/*表格的间隙样式初始化*/
+table {
+	border-collapse: collapse;
+}
+
+/*表单*/
+input,textarea{
+	outline: none;
+}
+textarea {
+	resize:none;
+}
+select{
+	appearance:none;
+	-moz-appearance:none;
+	-webkit-appearance:none;
+	border:none;
+	outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {font-weight:500}
+
+*{
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	margin: 0;
+	padding: 0;
+}
+/*清浮动 BFC*/
+.clearfix:after {
+	content: "";display: block;clear: both;
+}
+.clearfix {
+	zoom:1;
+}
+/*浮动*/
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+html,body {
+	font-family: Arial, Helvetica, "苹方", "PingFang SC", "微软雅黑", "Microsoft YaHei", "华文黑体", "冬青黑体", "黑体";
+	color:#333;
+	line-height:1;
+	background-color:#fff;
+	width: 100%;
+	/*min-width: 1200px;*/
+	min-width: 1100px;
+}
+html {
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+}
+input[type="text"]{-webkit-appearance: none;}
+.container {
+	/*width: 1200px;*/
+	width: 1100px;
+	margin: 0 auto;
+}
+@media (min-width: 1200px) {
+	.container {
+		/*width: 1200px;*/
+		width: 1100px;
+	}
+}
+
+/* 基础样式 */
+/* 文字颜色 */
+.level1-text {color: #000000;}
+.level2-text {color: #666666;}
+.level3-text {color: #AAAAAA;}
+.level4-text {color: #CCCCCC;}
+.blue-text {color: #5DACFF;}
+.white-text {color: #FFFFFF;}
+/* 字号 */
+.font12 {font-size: 12px;}
+.font13 {font-size: 13px;}
+.font14 {font-size: 14px;}
+.font16 {font-size: 16px;}
+.font24 {font-size: 24px;}
+.font26 {font-size: 26px;}
+/* 字重 */
+.weight400 {font-weight: 400;}
+.weight500 {font-weight: 500;}
+/* 背景色 */
+.backgroud-grey {background-color: #F9F9F9;}
+.backgroud-black {background-color: rgba(34,34,34,1);}
+/* 文字对齐方式 */
+.txt-left {text-align: left;}
+.txt-center {text-align: center;}
+.txt-right {text-align: right;}
+/* 边距 */
+.pl20 {padding-left: 20px;}
+.pl40 {padding-left: 40px;}
+.pdr20 {padding-right: 20px;}
+.pdr30 {padding-right: 30px;}
+.pdlr70 {padding-left: 70px !important;padding-right: 70px !important;}
+.ptb10 {padding: 10px 0;}
+.pt12 {padding-top: 12px;}
+.pt20 {padding-top: 20px;}
+.pb40 {padding-bottom: 40px;}
+.mr50 {margin-right: 50px;}
+/* 高度 */
+.height165 {height: 165px;}
+.height170 {height: 170px;}
+.height180 {height: 180px;}
+/* 宽度 */
+.width100 {width: 100px;}
+.width140 {width: 140px;}
